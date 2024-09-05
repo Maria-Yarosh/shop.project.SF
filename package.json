@@ -2,7 +2,7 @@
   "name": "shop.project",
   "author": "Maria Yarosh",
   "repository": {
-    "url": "https://github.com/IceDaria/Shop.Project.git"
+    "url": "https://github.com/Maria-Yarosh/shop.project.SF"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
