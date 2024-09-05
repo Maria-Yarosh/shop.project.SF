@@ -1,0 +1,27 @@
+<h1>
+    Add new product to Data Base
+</h1>
+
+<form action="add-product" method="post" class="product-edit-form">
+    <div class="product-edit-fields">
+
+        <div class="field">
+            <label for="title">Title:</label>
+            <input id="title" type="text" name="title" value="<%= item.title %>" />
+        </div>
+
+        <div class="field">
+            <label for="description">Description:</label>
+            <textarea id="description" rows="3" name="description"><%= item.description %></textarea>
+        </div>
+
+        <div class="field">
+            <label for="price">Price:</label>
+            <input id="price" type="text" name="price" value="<%= item.price %>" />
+        </div>
+    </div>
+
+    <div class="product-edit-footer">
+        <button type="submit">Save changes</button>
+    </div>
+</form>
